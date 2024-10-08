@@ -1,0 +1,68 @@
+.headerWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px;
+}
+.lightBlue {
+    color: #062d99; 
+  }
+
+  .blue{
+    color: #062d99
+  }
+
+  .silver {
+    color: #a1a1a1; 
+  }
+
+  .black{
+    color: #000;
+  }
+
+  .fontSize{
+    font-size: 35px;
+  }
+
+  .cartSize{
+    font-size: 25px;
+  }
+
+  .logoWrapper{
+    display: flex;
+  }
+
+  .searchBar{
+    padding: 5px;
+    width: 600px;
+  }
+
+  .pageViewSize{
+    font-size: 42px;
+  }
+
+  .cursorPointer{
+    cursor: pointer;
+  }
+
+  .searchWrapper{
+    display: flex;
+    align-items: center;
+  }
+
+  .cartCounter{
+    text-align: center;
+    position: relative;
+    top: 6px;
+    font-weight: bold;
+    color: #062d99
+  }
+
+  .searchBarWrapper{
+    position: relative;
+    height: 100%;
+  }
+
+  .cartSize:hover{
+    color: #005f86
+  }

@@ -1,0 +1,228 @@
+.postDetail {
+  width: 695px;
+  height: 679px;
+  padding: 32px;
+  gap: 20px;
+  border-radius: 16px;
+  opacity: 0px;
+  background: #ffffff;
+  display: flex;
+  position: absolute;
+  top: 400px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  overflow-y: auto;
+}
+.feedSubWrapper {
+  position: relative;
+  height: 679px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); 
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  overflow-y: auto;
+}
+
+
+.imageAndCaption {
+  width: 354px;
+  height: 614.96px;
+  gap: 20px;
+  opacity: 0px;
+}
+
+.captionWrapper {
+  width: 354px;
+  height: 156px;
+  padding: 16px;
+  gap: 10px;
+  border: 1px solid #ececec;
+  border-radius: 8px;
+  opacity: 0px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.postInfo {
+  width: 257px;
+}
+
+.captionTitle {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.06em;
+  text-align: left;
+  color: #000000;
+}
+
+.captionText {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  color: #767676;
+  margin-top: 10px;
+}
+
+.postDetails {
+  padding: 20px 0px 20px 0px;
+  gap: 10px;
+}
+
+.borderTop {
+  border-top: 1px solid #ececec;
+}
+
+.account {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12.1px;
+  text-align: left;
+  color: #767676;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.78px;
+  letter-spacing: 0.06em;
+  text-align: left;
+}
+
+.property {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  color: #000000;
+}
+
+.value {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  color: #767676;
+}
+
+.displayFlex {
+  display: flex;
+}
+
+.displayNone {
+  display: none;
+}
+
+.justifyContent {
+  justify-content: space-between;
+}
+
+.flexDirection {
+  flex-direction: column;
+}
+
+.columnLabel {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.06em;
+  text-align: left;
+}
+
+.priceSize{
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+.loading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.addToCartButton{
+  border: 1px solid #2d65ff;
+  background: #2d65ff;
+  border-radius: 10px;
+  padding: 12px;
+  width: 70%;
+  text-align: center;
+  margin-top: 20px;
+  cursor: pointer;
+  color:#ffffff;
+  font-size: 18px;
+}
+
+.addToCartButton:hover{
+  border: 1px solid #4a78f5;
+  background: #4a78f5;
+}
+
+.availableOf{
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 16px;
+  color: #000000;
+}
+
+.installments{
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.close {
+  position: relative;
+  top: -10px;
+  left: 10px;
+  cursor: pointer;
+}
+
+.marginTop {
+  margin-top: 10px;
+}
+
+.marginTopProperties {
+  margin-top: 6px;
+}
+.hashtagWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 10px;
+}
+
+.hashtags {
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+  height: 24px;
+  padding: 6px 10px 6px 10px;
+  gap: 0px;
+  border: 0.5px solid #808080;
+  border-radius: 5px;
+}
+.hashtagText {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  text-align: left;
+  color: #767676;
+}
+
+.marginLeft {
+  margin-left: 6px;
+}
+
+.marginBottom {
+  margin-bottom: 20px;
+}

@@ -1,0 +1,21 @@
+.cartWrapper{
+    display: flex;
+    padding: 32px;
+    width: 100%;
+    gap: 16px; 
+}
+
+.cartProductContainer {
+  flex: 0 1 calc(70% - 8px);
+}
+
+.cartSummaryContainer {
+  flex: 0 1 calc(30% - 8px);
+}
+
+.cartEmpty{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}

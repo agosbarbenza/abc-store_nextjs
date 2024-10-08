@@ -1,0 +1,32 @@
+.cartProductWrapper {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .cartProductWrapper > div {
+    flex: 1; 
+    text-align: center;
+  }
+
+  .title{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.price{
+    font-size: 18px;
+    font-weight: 600;
+}
+.stock{
+  font-size: 12px;
+  margin-top: 10px;
+  color: #929292;
+  font-weight: 300;
+}

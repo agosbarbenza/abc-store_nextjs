@@ -1,0 +1,56 @@
+
+.searchWrapper{
+    display: flex;
+    align-items: center;
+  }
+
+  .optionsWrapper{
+    background-color: #fff;
+    border: 1px solid black;
+    position: absolute; 
+    top: calc(100% + 5px);
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    max-height: 300px; 
+    overflow-y: auto;
+  }
+
+  .searchResults{
+    list-style-type: none;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0;
+  }
+  
+  .searchItem{
+    padding: 5px;
+    cursor: pointer;
+  }
+
+  .searchItem:hover{
+    color: #207dff;
+  }
+
+  .searchBar{
+    padding: 5px;
+    width: 600px;
+    border: 1px solid #062d99;
+    border-radius: 3px;
+  }
+  
+  .pageViewSize{
+    font-size: 42px;
+  }
+
+  .pageViewSize:hover{
+    color: #207dff;
+  }
+
+  .cursorPointer{
+    cursor: pointer;
+  }
+
+  .blue{
+    color: #062d99
+  }
